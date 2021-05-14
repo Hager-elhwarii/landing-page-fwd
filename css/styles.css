@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/background.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    position: relative;
+}
+
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 80px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 18px 20px;
+}
+
+.links {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Barlow";
+    letter-spacing: 2px;
+    /* border: red solid 1px; */
+    /* transition: all 0.3s ease 0s; */
+
+}
+
+.link {
+    /* border: yellow solid 1px; */
+    text-decoration: none;
+    color: rgb(248, 242, 242);
+    font-weight: 700;
+
+}
+
+.link:hover {
+    color: rgb(197, 190, 190);
+}
+
+.content-area {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin-left: 80px;
+    margin-top: 120px;
+
+}
+
+.content {
+    text-align: left;
+}
+
+.content h1 {
+    color: #fff;
+    font-size: 75px;
+    font-family: "Cutive&display";
+}
+
+.content p {
+    color: rgb(233, 227, 227);
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    line-height: 1.6;
+
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    margin-top: 60px;
+    border-radius: 6px;
+    background-color: rgb(25, 143, 133);
+    font-family: "Cutive&display";
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(24, 126, 117);
+}
+
+.section2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/background2.jpg);
+    background-size: cover;
+    background-size: 100%;
+    background-blend-mode: darken;
+    position: relative;
+}
+
+.content2-area {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    /* border: red 2px solid; */
+}
+
+.content2 {
+    text-align: left;
+}
+
+.content2 h1 {
+    color: #fff;
+    font-size: 65px;
+    font-family: "Cutive&display";
+}
+
+.content2 p {
+    color: rgb(223, 213, 213);
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.btn2 {
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 6px;
+    background-color: rgb(225, 235, 233);
+    font-family: "Cutive&display";
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(66, 61, 61);
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: rgb(197, 204, 204);
+}
+
+.section3 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/background3.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    position: relative;
+}
+
+.content3-area {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 50px;
+
+}
+
+.content3 {
+    text-align: left;
+}
+
+.content3 h1 {
+    color: #fff;
+    font-size: 65px;
+    font-family: "Cutive&display";
+}
+
+.content3 p {
+    color: rgb(255, 248, 248);
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.btn3 {
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    background-color: rgb(227, 233, 232);
+    font-family: "Cutive&display";
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(66, 61, 61);
+    cursor: pointer;
+}
+
+.btn3:hover {
+    background-color: rgb(197, 204, 204);
+}
+
+.section4 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/background4.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    position: relative;
+}
+
+.content4-area {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 200px 100px;
+}
+
+.content4 {
+    text-align: left;
+}
+
+.content4 h1 {
+    color: #fff;
+    font-size: 65px;
+    font-family: "Cutive&display";
+}
+
+.content4 p {
+    color: rgb(255, 248, 248);
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.btn4 {
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    background-color: rgb(227, 233, 232);
+    font-family: "Cutive&display";
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(66, 61, 61);
+    cursor: pointer;
+}
+
+.btn4:hover {
+    background-color: rgb(197, 204, 204);
+}
