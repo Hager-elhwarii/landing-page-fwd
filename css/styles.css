@@ -38,7 +38,7 @@
     margin: 18px 20px;
 }
 
-.links {
+.nav-link {
     text-transform: uppercase;
     font-size: 16px;
     font-family: "Barlow";
@@ -48,7 +48,7 @@
 
 }
 
-.link {
+.nav-link {
     /* border: yellow solid 1px; */
     text-decoration: none;
     color: rgb(248, 242, 242);
@@ -270,4 +270,12 @@
 
 .btn4:hover {
     background-color: rgb(197, 204, 204);
+}
+
+.active {
+    color: hsl(256, 26%, 20%);
+}
+
+.highlighted {
+    background-color: rgb(126, 126, 125);
 }
