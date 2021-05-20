@@ -1,6 +1,8 @@
 const navSections = document.querySelectorAll('section')
 const navBar = document.getElementById('links')
 
+console.log(navSections)
+
 //DYNAMIC NAV BAR
 function dynamivNavBar() {
   let fragment = document.createDocumentFragment()
@@ -25,6 +27,7 @@ function dynamivNavBar() {
     attr1.value = 'nav-link'
     newLink.setAttributeNode(attr1)
     newLink.appendChild(txtContent)
+    console.log(newLink)
     // console.log(txtContent)
     newli.appendChild(newLink)
     // console.log(newli)
@@ -88,8 +91,12 @@ function activeSection() {
   document.addEventListener('scroll', function (event) {
     event.preventDefault()
     navSections.forEach((section) => {
+
       if (inViewPort(section)) {
         section.classList.add('highlighted')
+      } else {
+        section.classList.remove("highlighted")
+
       }
     })
   })
